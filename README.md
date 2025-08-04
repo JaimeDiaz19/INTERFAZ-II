@@ -2,7 +2,7 @@
 
 
 
-#### Ejercicio 1 n° 1 
+#### Ejercicio n° 1 
 
 
 
