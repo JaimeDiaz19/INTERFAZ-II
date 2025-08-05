@@ -1,7 +1,7 @@
 # INTERFAZ II
 ------------------------------------------------
 
-####<ins> 	 Ejercicio n° 1  </ins>
+####  Ejercicio n° 1  
 
 ``` js
 
