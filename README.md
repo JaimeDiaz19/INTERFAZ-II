@@ -1,9 +1,8 @@
 # INTERFAZ II
 ------------------------------------------------
 
-####  Ejercicio n° 1  
+#####  Ejercicio n° 1  : Hola Mundo!
 
-Hola Mundo
 ``` js
 
 void setup() {
@@ -16,8 +15,8 @@ void loop() {
 }
 
 ```
+##### Ejercicio n°2 : Semáforo
 
-Semaforo
 ```
 // C++ code - Semáforo Autos y Peatones
 
