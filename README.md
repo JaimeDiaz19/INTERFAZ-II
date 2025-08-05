@@ -1,8 +1,8 @@
 # INTERFAZ II
 ------------------------------------------------
 
-#### Ejercicio n° 1 
---
+####<ins> 	 Ejercicio n° 1  </ins>
+
 ``` js
 
 void setup() {
