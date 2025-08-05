@@ -3,7 +3,7 @@
 
 
 #### Ejercicio n° 1 
-
+------------------
 ``` js
 
 void setup() {
