@@ -17,8 +17,6 @@ void loop() {
 ```
 ##### Ejercicio n°2 Led parpadeante 
 
-
-
 ``` js
 // C++ code
 //
@@ -46,6 +44,8 @@ void loop()
 }
 
 ```
+<a href="img/2Ledparpadeante.png" > Led Parpadeante </a>
+
 ##### Ejercicio n°3 Pulsador
 ``` js
 void setup() {
