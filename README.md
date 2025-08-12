@@ -44,7 +44,7 @@ void loop()
 }
 
 ```
-<a href="[img/2Ledparpadeante.png](https://github.com/JaimeDiaz19/INTERFAZ-II-Seccion-2-Martes/blob/main/img/2Ledparpadeante.png?raw=true)" > Led Parpadeante </a>
+<a href="img/2Ledparpadeante.png" > Led Parpadeante </a>
 
 ##### Ejercicio n°3 Pulsador
 ``` js
@@ -62,7 +62,7 @@ void loop() {
 
 
 ```
-<a href="img/2Ledparpadeante.png" > Led Parpadeante </a>
+<a href="img/3Pulsador.png" > Led Parpadeante </a>
 ##### Ejercicio n°4 Potenciómetro
 ``` js
 int potPin = A0;  // Pin analógico donde está conectado el potenciómetro
@@ -87,7 +87,7 @@ void loop() {
 
 
 ```
-<a href="img/2Ledparpadeante.png" > Led Parpadeante </a>
+<a href="img/4Potenciómetro.png" > Led Parpadeante </a>
 ##### Ejercicio n°5 : Semáforo
 ```js
 // C++ code - Semáforo Autos y Peatones
@@ -136,7 +136,7 @@ void loop() {
 }
 ```
 
-<a href="img/2Ledparpadeante.png" > Led Parpadeante </a>
+<a href="img/5Semáforo.png" > Led Parpadeante </a>
 
 
 
