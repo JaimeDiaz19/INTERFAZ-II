@@ -62,7 +62,7 @@ void loop() {
 
 
 ```
-<a href="img/3Pulsador.png" > Pulsador </a>
+<img src="img/3Pulsador.png" > Pulsador </a>
 ##### Ejercicio n°4 Potenciómetro
 ``` js
 int potPin = A0;  // Pin analógico donde está conectado el potenciómetro
@@ -87,7 +87,7 @@ void loop() {
 
 
 ```
-<a href="img/4Potenciómetro.png" > Potenciómetro </a>
+<img src="img/4Potenciómetro.png" > Potenciómetro </a>
 ##### Ejercicio n°5 : Semáforo
 ```js
 // C++ code - Semáforo Autos y Peatones
@@ -136,7 +136,7 @@ void loop() {
 }
 ```
 
-<a href="img/5Semáforo.png" > Semáforo </a>
+<img src="img/5Semáforo.png" > Semáforo </a>
 
 
 
