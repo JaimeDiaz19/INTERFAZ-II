@@ -15,9 +15,76 @@ void loop() {
 }
 
 ```
-##### Ejercicio n°2 : Semáforo
+##### Ejercicio n°2 Led parpadeante 
+``` js
+// C++ code
+//
+void setup()
+{
+  pinMode(13,OUTPUT);
+  pinMode(8,OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);
+  
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(8, HIGH);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(13,LOW);
+  delay(500); 
+  digitalWrite(8, LOW) ;
+  
+  delay(500); 
+  
+  
+}
 
 ```
+##### Ejercicio n°3 Pulsador
+``` js
+void setup() {
+  pinMode(2, INPUT);  // Botón como entrada
+  pinMode(13, OUTPUT);
+}
+void loop() {
+  if (digitalRead(2) == HIGH) {  // Si se presiona el botón
+    digitalWrite(13, HIGH);
+  } else {
+    digitalWrite(13, LOW);
+  }
+}
+
+
+```
+##### Ejercicio n°4 Potenciómetro
+``` js
+int potPin = A0;  // Pin analógico donde está conectado el potenciómetro
+int potValue = 0; 
+
+void setup() {
+  pinMode(9, OUTPUT);  // Pin PWM (símbolo ~)
+  Serial.begin(9600);
+}
+void loop() {
+  int valor = analogRead(A0);           // Leer potenciómetro (0-1023)
+  int brillo = map(valor, 0, 1023, 0, 255);  // Convertir a rango PWM
+  analogWrite(9, brillo);               // Ajustar brillo
+
+  
+  potValue = analogRead(potPin); // Lee el valor del potenciómetro
+  Serial.print("Valor del potenciómetro: ");
+  Serial.println(potValue); // Imprime el valor en el Monitor Serial
+  delay(100); // Espera 100m
+
+}
+
+
+```
+##### Ejercicio n°5 : Semáforo
+```js
 // C++ code - Semáforo Autos y Peatones
 
 // Definición de pines
