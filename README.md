@@ -63,6 +63,10 @@ void loop() {
 
 ```
 <img src="img/3Pulsador.png" > Pulsador </a>
+
+---Subir foto de circuito físico---
+
+
 ##### Ejercicio n°4 Potenciómetro
 ``` js
 int potPin = A0;  // Pin analógico donde está conectado el potenciómetro
@@ -137,6 +141,8 @@ void loop() {
 ```
 
 <img src="img/5Semáforo.png" > Semáforo </a>
+----- Foto circuito Físico----
+
 
 
 #### Pulsador Arduino + Processing
